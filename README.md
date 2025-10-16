@@ -10,6 +10,7 @@
 **Môn học:** Trí tuệ nhân tạo
 
 **Giảng viên:** Phan Thị Huyền Trang
+
 **Link Github:** https://github.com/DanggQuangg/B-o-c-o-cu-i-k-c-nh-n-m-n-AI.git
 ---
 
