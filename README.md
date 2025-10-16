@@ -83,13 +83,12 @@ Triển khai bài toán 8 quân hậu sử dụng 17 thuật toán AI khác nhau
 
 ### Test cơ bản:
 1. Chạy chương trình - Kiểm tra giao diện có hoạt động
-2. Nhấn nút Sinh trạng thái - Kiểm tra có sinh được trạng thái mục tiêu
-3. Nhấn các nút thuật toán - Kiểm tra thuật toán có chạy
-4. Nhấn reset - Kiểm tra xem có rest được giao diện
+2. Nhấn các nút thuật toán - Kiểm tra thuật toán có chạy
+3. Nhấn nút tăng tốc để điều chỉnh tốc độ thuật toán theo ý muốn
 
 ### Test chi tiết:
 1. Thử từng thuật toán riêng lẻ
-2. Kiểm tra thông tin trong hai ô thông báo
+2. Kiểm tra thông tin trong ô thông báo
 3. Xem kết quả hiển thị có chính xác không
 4. **Quan sát demo GIFs** - So sánh với kết quả thực tế
 
@@ -99,21 +98,10 @@ Triển khai bài toán 8 quân hậu sử dụng 17 thuật toán AI khác nhau
 
 ## 🎨 VISUAL SHOWCASE
 
-Bài tập này có **18 demo GIFs** cho thấy:
-- 🎬 **Demo tổng quan**: Giao diện chính và cách sử dụng
+Bài tập này có **17 demo GIFs** cho thấy:
 - 🧠 **17 thuật toán AI**: Mỗi thuật toán có demo riêng
 - 🎯 **So sánh trực quan**: Thấy rõ sự khác biệt giữa các thuật toán
 
 ---
 
-## 📈 KẾT QUẢ MONG ĐỢI KHI CHẤM BÀI
-
-### Điểm tối đa nếu:
-- ✅ Chạy được tất cả 17 thuật toán
-- ✅ Giao diện không bị lỗi
-- ✅ Code có comment rõ ràng
-- ✅ Kết quả chính xác
-
----
-
-**Cảm ơn cô đã xem xét bài tập! 🙏**
+**Cảm ơn cô đã xem xét bài tập!**
