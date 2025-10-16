@@ -26,35 +26,11 @@ Triển khai bài toán 8 quân hậu sử dụng 17 thuật toán AI khác nhau
 ### Mục tiêu bài toán:
 Đặt 8 quân hậu trên bàn cờ 8x8 sao cho không có quân nào tấn công được quân nào khác. Quân hậu di chuyển theo hàng ngang và hàng dọc và đường chéo.
 
-## 🎬 DEMO CHƯƠNG TRÌNH
-
-![Demo Tổng Quan - 8 Quân Xe AI](images/demo.gif)
-
-*Minh họa tổng quan giao diện và menu chọn thuật toán*
-
----
-
-## 🚀 HƯỚNG DẪN CHẠY CHƯƠNG TRÌNH
-
-### Bước 1: Kiểm tra yêu cầu hệ thống
-```bash
-# Kiểm tra Python (cần Python 3.7+)
-python --version
-
-# Kiểm tra pip
-pip --version
-```
-### Bước 2: Tải và giải nén file nộp bài
-- Giải nén file ZIP đã nộp
-- Mở file bằng Visual studio code
-
----
 ## 🎮 CÁCH CHẠY CHƯƠNG TRÌNH
 
 - Chạy chương trình trong visual studio code
-- Click chuột chọn nút Sinh trạng thái mục tiêu để sinh trạng thái mục tiêu ngẫu nhiên trên bàn cờ bên phải
 - Nhấn vào các nút thuật toán để chạy thuật toán tương ứng
-- Bấm reset để xóa trống bàn cờ bên trái và ô thông báo
+- Bấm tăng tốc để tăng tốc độ thuật toán và bấm lại lần nữa để giảm tốc độ 
 ---
 
 ## 📊 17 THUẬT TOÁN ĐÃ TRIỂN KHAI
@@ -80,9 +56,9 @@ pip --version
 
 | STT | Thuật toán | Mô tả | Demo |
 |-----|------------|-------|------|
-| 8 | **Backtracking** | Quay lui cơ bản | ![Backtracking Demo](demo/Backtracking.gif) |
-| 9 | **Forward Checking** | Kiểm tra tiến | ![Forward Checking Demo](demo/ForwardChecking.gif) |
-| 10 | **AC-3** - Arc Consistency | Tính nhất quán cung | ![AC-3 Demo](demo/AC3.gif) |
+| 8 | **Backtracking** | Quay lui cơ bản | ![Backtracking Demo](demo/BackTracking_demo.gif) |
+| 9 | **Forward Checking** | Kiểm tra tiến | ![Forward Checking Demo](demo/ForwardChecking_demo.gif) |
+| 10 | **AC-3** - Arc Consistency | Tính nhất quán cung | ![AC-3 Demo](demo/AC3_demo.gif) |
 
 ### 🏔️ TÌM KIẾM CỤC BỘ
 
