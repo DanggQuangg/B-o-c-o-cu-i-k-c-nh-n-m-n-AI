@@ -10,7 +10,7 @@
 **Môn học:** Trí tuệ nhân tạo
 
 **Giảng viên:** Phan Thị Huyền Trang
-
+**Link Github:** https://github.com/DanggQuangg/B-o-c-o-cu-i-k-c-nh-n-m-n-AI.git
 ---
 
 ## 📋 THÔNG TIN BÀI TẬP
@@ -26,11 +26,35 @@ Triển khai bài toán 8 quân hậu sử dụng 17 thuật toán AI khác nhau
 ### Mục tiêu bài toán:
 Đặt 8 quân hậu trên bàn cờ 8x8 sao cho không có quân nào tấn công được quân nào khác. Quân hậu di chuyển theo hàng ngang và hàng dọc và đường chéo.
 
+## 🎬 DEMO CHƯƠNG TRÌNH
+
+![Demo Tổng Quan - 8 Quân Xe AI](images/demo.gif)
+
+*Minh họa tổng quan giao diện và menu chọn thuật toán*
+
+---
+
+## 🚀 HƯỚNG DẪN CHẠY CHƯƠNG TRÌNH
+
+### Bước 1: Kiểm tra yêu cầu hệ thống
+```bash
+# Kiểm tra Python (cần Python 3.7+)
+python --version
+
+# Kiểm tra pip
+pip --version
+```
+### Bước 2: Tải và giải nén file nộp bài
+- Giải nén file ZIP đã nộp
+- Mở file bằng Visual studio code
+
+---
 ## 🎮 CÁCH CHẠY CHƯƠNG TRÌNH
 
 - Chạy chương trình trong visual studio code
+- Click chuột chọn nút Sinh trạng thái mục tiêu để sinh trạng thái mục tiêu ngẫu nhiên trên bàn cờ bên phải
 - Nhấn vào các nút thuật toán để chạy thuật toán tương ứng
-- Bấm tăng tốc để tăng tốc độ thuật toán và bấm lại lần nữa để giảm tốc độ 
+- Bấm reset để xóa trống bàn cờ bên trái và ô thông báo
 ---
 
 ## 📊 17 THUẬT TOÁN ĐÃ TRIỂN KHAI
@@ -56,9 +80,9 @@ Triển khai bài toán 8 quân hậu sử dụng 17 thuật toán AI khác nhau
 
 | STT | Thuật toán | Mô tả | Demo |
 |-----|------------|-------|------|
-| 8 | **Backtracking** | Quay lui cơ bản | ![Backtracking Demo](demo/BackTracking_demo.gif) |
-| 9 | **Forward Checking** | Kiểm tra tiến | ![Forward Checking Demo](demo/ForwardChecking_demo.gif) |
-| 10 | **AC-3** - Arc Consistency | Tính nhất quán cung | ![AC-3 Demo](demo/AC3_demo.gif) |
+| 8 | **Backtracking** | Quay lui cơ bản | ![Backtracking Demo](demo/Backtracking.gif) |
+| 9 | **Forward Checking** | Kiểm tra tiến | ![Forward Checking Demo](demo/ForwardChecking.gif) |
+| 10 | **AC-3** - Arc Consistency | Tính nhất quán cung | ![AC-3 Demo](demo/AC3.gif) |
 
 ### 🏔️ TÌM KIẾM CỤC BỘ
 
@@ -83,12 +107,13 @@ Triển khai bài toán 8 quân hậu sử dụng 17 thuật toán AI khác nhau
 
 ### Test cơ bản:
 1. Chạy chương trình - Kiểm tra giao diện có hoạt động
-2. Nhấn các nút thuật toán - Kiểm tra thuật toán có chạy
-3. Nhấn nút tăng tốc để điều chỉnh tốc độ thuật toán theo ý muốn
+2. Nhấn nút Sinh trạng thái - Kiểm tra có sinh được trạng thái mục tiêu
+3. Nhấn các nút thuật toán - Kiểm tra thuật toán có chạy
+4. Nhấn reset - Kiểm tra xem có rest được giao diện
 
 ### Test chi tiết:
 1. Thử từng thuật toán riêng lẻ
-2. Kiểm tra thông tin trong ô thông báo
+2. Kiểm tra thông tin trong hai ô thông báo
 3. Xem kết quả hiển thị có chính xác không
 4. **Quan sát demo GIFs** - So sánh với kết quả thực tế
 
@@ -98,10 +123,21 @@ Triển khai bài toán 8 quân hậu sử dụng 17 thuật toán AI khác nhau
 
 ## 🎨 VISUAL SHOWCASE
 
-Bài tập này có **17 demo GIFs** cho thấy:
+Bài tập này có **18 demo GIFs** cho thấy:
+- 🎬 **Demo tổng quan**: Giao diện chính và cách sử dụng
 - 🧠 **17 thuật toán AI**: Mỗi thuật toán có demo riêng
 - 🎯 **So sánh trực quan**: Thấy rõ sự khác biệt giữa các thuật toán
 
 ---
 
-**Cảm ơn cô đã xem xét bài tập!**
+## 📈 KẾT QUẢ MONG ĐỢI KHI CHẤM BÀI
+
+### Điểm tối đa nếu:
+- ✅ Chạy được tất cả 17 thuật toán
+- ✅ Giao diện không bị lỗi
+- ✅ Code có comment rõ ràng
+- ✅ Kết quả chính xác
+
+---
+
+**Cảm ơn cô đã xem xét bài tập! 🙏**
